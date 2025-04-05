@@ -1,0 +1,18 @@
+ci:
+ - ".github/**"
+
+docs:
+ - "docs/**"
+ - "README.md"
+ - "LICENSE.txt"
+
+src:
+ - "hwm/include/**"
+ - "hwm/lib/**"
+
+third-party:
+ - "third-party/**"
+
+clang-tools:
+ - ".clang-format"
+ - ".clang-tidy"
